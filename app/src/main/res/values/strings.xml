@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">TIẾP</string>
+    <string name="skip">Bỏ QUA</string>
+    <string name="start">XONG</string>
+
+    <string name="slide_1_title">HELLO!</string>
+    <string name="slide_1_desc">Chào mừng đến với cửa hàng phần mềm !</string>
+
+    <string name="slide_2_title">MODELS</string>
+    <string name="slide_2_desc">Đa dạng các loại sản phẩm!</string>
+
+    <string name="slide_3_title">DISCOUNTS</string>
+    <string name="slide_3_desc">Có nhiều ưu đãi hấp dẫn!</string>
+
+    <string name="slide_4_title">BUY NOW</string>
+    <string name="slide_4_desc">Let\'s go!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+
+    <string name="navigation_drawerr_open">Open navigation drawer</string>
+    <string name="navigation_drawerr_close">Close navigation drawer</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tdtu.finalproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activity.AddCoupon"></activity>
+        <activity android:name=".activity.ManageCoupon" />
+        <activity android:name=".activity.ManageProduct" />
+        <activity android:name=".activity.AdminOrderDetail" />
+        <activity android:name=".activity.AdminListOrder" />
+        <activity android:name=".activity.AdminPage" />
+        <activity android:name=".activity.AdminLogin" />
+        <activity android:name=".activity.OrderDetail" />
+        <activity android:name=".activity.MyOrder" />
+        <activity android:name=".activity.GetPassword" />
+        <activity android:name=".activity.ForgotPassword" />
+        <activity android:name=".activity.SignIn" />
+        <activity android:name=".activity.InfomationUser" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.MyCart" />
+        <activity android:name=".activity.ItemType" />
+        <activity android:name=".activity.Details" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
