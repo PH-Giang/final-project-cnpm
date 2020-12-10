@@ -1,7 +1,7 @@
 package tdtu.finalproject.util;
 
 public class Server {
-    public static String localhost = "192.168.88.128";
+    public static String localhost = "192.168.179.1";
     public static String directionCategory = "http://" + localhost + "/server/category.php";
     public static String directionProduct = "http://" + localhost + "/server/allProduct.php";
     public static String imgaeDirection = "http://" + localhost + "/server/image/";
